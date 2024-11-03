@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.pkl
+*.xlsx
+*.json
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+
+# Ignore specific directories
+/tests/
+avrage_distribution.pkl
+random_forest_model.pkl
+utils/
+socialmedia_analysis_app.py
+processed_data.py
+file_upload.py
